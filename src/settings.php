@@ -3,9 +3,9 @@
 class Settings{
 
 	const dbHost = "localhost";
-	const dbUser = "cynericsql2";
-	const dbPass = "fe56722c";
-	const db = "cynericsql2";
+	const dbUser = "root";
+	const dbPass = "";
+	const db = "betting";
 
 }
 
