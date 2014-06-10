@@ -1,0 +1,30 @@
+@import url("normalize.css");
+@import url(bootstrap.min.css);
+@import url(font-awesome.css);
+@import url(jquery.dataTables.min.css);
+
+
+
+
+
+article, aside, details, figcaption, figure,
+	 footer, header, hgroup, main, nav, section, summary {
+	 display: block;
+	 }
+	 
+	 
+/*
+body{
+	background: url('../img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+@media screen and (max-width: 750px) {
+	#datatable {
+		overflow-x: auto;
+		display: block;
+	}
+}
